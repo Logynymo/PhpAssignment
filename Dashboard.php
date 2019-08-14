@@ -9,7 +9,7 @@
 </head>
 
 <body> 
-	<div class="lige" id="container">
+	<div class="<?php echo oddOrEvenBgColor() ?>" id="container">
 		<?php include "Include/Header-include.php";?>
 		<?php include "Include/Nav-include.php";?>
 		<br>

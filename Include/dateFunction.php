@@ -15,10 +15,15 @@ function messageOfTheMonth($month) {
 ?>
 
 <?php 
-function oddOrEvenBgColor($backGround, $minute) {
+function oddOrEvenBgColor() {
 	$minute = idate("i");
 	if ($minute % 2 == 0)
-		$backGround =
+	{
+		return "lige";
+	}
+	else{
+		return "ulige";
+	}
 		
 }
 ?>
