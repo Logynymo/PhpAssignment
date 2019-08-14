@@ -1,4 +1,4 @@
-<?php
+<?php  
 function messageOfTheMonth($month) {
 	if ($month === "December" || $month === "January" || $month === "February") 
 		return "It is $month, it's fucking freezing! did you remember your jacket?";

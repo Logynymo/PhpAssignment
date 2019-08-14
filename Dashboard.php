@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body>
+<body> 
 	<div class="lige" id="container">
 		<?php include "Include/Header-include.php";?>
 		<?php include "Include/Nav-include.php";?>
@@ -20,7 +20,7 @@
 			<?php "It is $month";?>
 			<?php echo messageOfTheMonth($month);?>
 		</p>
-
+ 
 
 		<?php include "Include/Footer-include.php";?>
 	</div>

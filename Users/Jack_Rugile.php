@@ -6,7 +6,7 @@
 <link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 
-<body>
+<body> 
 	<div id="container">
     <?php include "../Include/Header-include.php";?>
 	<?php include "../Include/Nav-include.php";?>

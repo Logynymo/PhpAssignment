@@ -9,7 +9,7 @@
 <title>Untitled Document</title>
 </head>
 
-<body>
+<body> 
 	<div id="nav">
         <ul>
             <li><a href="<?php echo $siteroot; ?>/Dashboard.php"><span>Dashboard</span></a></li>

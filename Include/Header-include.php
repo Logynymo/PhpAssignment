@@ -6,7 +6,7 @@
 <title>Untitled Document</title>
 </head>
 
-<body>
+<body> 
 	<div id="container">
     <div id="header">
         <h1><strong><a href="../Dashboard.php">The final frontier</a></strong> Forums</h1>
