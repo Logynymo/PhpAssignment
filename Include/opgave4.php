@@ -1,7 +1,8 @@
 <?php
 
 function findBoyoInArray() {
-	$delimiter = "|";
+
+	$delimiter = "|"; //Delimiter for imploding, exploding and ucwords
 	$find = "matwix";
 	$elever = array(
 
@@ -11,19 +12,22 @@ function findBoyoInArray() {
 		"bobwix",
 		"tobwix",
 		"jacwix" );
+
 	$tempImplode = implode( $delimiter, $elever );
 
-	//	echo $tempImplode;
-	ucwords( $tempImplode, $delimiter );
-	echo $tempImplode;
-	$newStudentArray = explode( $delimiter, $tempImplode );
-	print_r( $newStudentArray );
+	$find = ucwords($find);
+	
+	$newStudentArray = ucwords( $tempImplode, $delimiter );
+
+
+	$newStudentArray = explode( $delimiter, $newStudentArray );
+
 
 	if ( in_array( $find, $newStudentArray ) ) {
 
-		echo " \n Personen er fundet og er nr: " . array_search( $find, $newStudentArray ) . " i array'et";
+		echo " \n Keyword found on number: " . array_search( $find, $newStudentArray ) . " in the array";
 	} else {
-		echo nl2br( "F i chatten boys" );
+		echo nl2br( "Keyword not found." );
 	}
 }
 ?>
