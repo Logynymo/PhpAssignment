@@ -1,4 +1,5 @@
 <?php include "Include/stringFunctions.php";?>
+<?php include "Include/opgave4.php";?>
 
 <!doctype html>
 <html>
@@ -20,6 +21,14 @@
 		<?php ucFirstLetter();?>
 		<br><br>
 		<?php ucEveryFirstWord();?>
+		<br><br>
+		<?php searchString();?>
+		<br><br>
+		<?php pwGenerator();?>
+		<br><br>
+		<?php palindromeChecker($string);?>
+		<br><br>
+		<?php findBoyoInArray()?>
 		<?php include "Include/Footer-include.php";?>
 </div>
 </body>
