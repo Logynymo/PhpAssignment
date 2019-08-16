@@ -34,12 +34,34 @@ function findBoyoInArray() {
 
 <?php
 
-function assRayMonths() {
-	$months = array( "Januar" => "31", "Februar" => "28", "Marts" => "31", "April" => "30", "Maj" => "31", "Juni" => "30", "Juli" => "31", "August" => "31", "September" => "30", "October" => "31", "November" => "30", "December" => "31" );
+function assRayMonths( $short = false ) {
+	$months = array( "Januar" => 31, "Februar" => 28, "Marts" => 31, "April" => 30, "Maj" => 31, "Juni" => 30, "Juli" => 31, "August" => 31, "September" => 30, "October" => 31, "November" => 30, "December" => 31 );
 
-	foreach() {
-		
+	echo "<table>";
+
+	foreach ( $months as $month => $days ) {
+
+
+		if ( !$short ) {
+
+
+			if ( $days > 30 ) {
+				echo "<tr>";
+				echo "<td>$month: </td>";
+				echo "<td>$days dage</td>";
+				echo "</tr>";
+
+			}
+
+		} else {
+			if ( $days < 31 ) {
+				echo "<tr>";
+				echo "<td>$month: </td>";
+				echo "<td>$days dage</td>";
+				echo "</tr>";
+			}
+		}
 	}
-	?>
-
+	echo "</table>";
 }
+?>

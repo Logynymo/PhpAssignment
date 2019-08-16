@@ -65,8 +65,8 @@ function pwGenerator() {
 
 <?php
 
-function palindromeChecker( $string ) {
-
+function palindromeChecker() {
+$string = "kayak";
 	if ( strrev( $string ) === $string ) {
 		return 1;
 	} else {
