@@ -29,6 +29,8 @@
 		<?php palindromeChecker($string);?>
 		<br><br>
 		<?php findBoyoInArray()?>
+		<br><br>
+		<?php assRayMonths()?>
 		<?php include "Include/Footer-include.php";?>
 </div>
 </body>
