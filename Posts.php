@@ -32,8 +32,11 @@
 		<br><br>
 		<div class="monthPosition">
 		<?php assRayMonths(true)?>	
-		</div>
+		</div>5,
 		<?php assRayMonths()?>
+		
+		<?php laererArray()?>
+		
 		<?php include "Include/Footer-include.php";?>
 	</div>
 
