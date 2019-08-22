@@ -1,5 +1,7 @@
 <?php include "Include/stringFunctions.php";?>
 <?php include "Include/opgave4.php";?>
+<?php include "Include/form.php";?>
+
 
 <!doctype html>
 <html>
@@ -31,12 +33,25 @@
 		<?php findBoyoInArray()?>
 		<br><br>
 		<div class="monthPosition">
-		<?php assRayMonths(true)?>	
+			<?php assRayMonths(true)?>
 		</div>5,
 		<?php assRayMonths()?>
-		
+
 		<?php laererArray()?>
-		
+		<br><br>
+
+
+		<p>
+			Pick a color:
+			<select name="formColor">
+				<option value="">Select...</option>
+				<option value="R">Rød</option>
+				<option value="G">Grøn</option>
+				<option value="B">Blå</option>
+				<option value="G">Grå</option>
+			</select>
+		</p>
+		<?php formsEverywhere()?>
 		<?php include "Include/Footer-include.php";?>
 	</div>
 

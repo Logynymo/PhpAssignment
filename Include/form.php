@@ -1,12 +1,10 @@
 <?php
 
-if(isset($_POST['formSubmit']) )
-{
-  $varMovie = $_POST['formMovie'];
-  $varName = $_POST['formName'];
-  $varGender = $_POST['formGender'];
-  $errorMessage = "";
+function formsEverywhere() {
+	if ( isset( $_POST[ 'formSubmit' ] ) ) {
+		$varColor = $_POST[ 'Rød' ];
+		$errorMessage = "";
 
+	}
 }
-
 ?>
