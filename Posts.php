@@ -44,7 +44,7 @@
 		<p>
 			Pick a color:
 			<select name="formColor">
-				<option value="">Select...</option>
+				<option value=""> </option>
 				<option value="R">Rød</option>
 				<option value="G">Grøn</option>
 				<option value="B">Blå</option>
