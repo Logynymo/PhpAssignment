@@ -7,7 +7,6 @@ if(isset($_POST['formSubmit']) )
   $varGender = $_POST['formGender'];
   $errorMessage = "";
 
-  // - - - snip - - - 
 }
 
 ?>
