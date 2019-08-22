@@ -75,6 +75,8 @@ function assRayMonths( $short = false ) {
   echo "</table>";
 }
 ?>
+
+
 <?php
 function laererArray(){
 $laerere = array(

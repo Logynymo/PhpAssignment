@@ -30,14 +30,14 @@
 		<br><br>
 		<?php palindromeChecker();?>
 		<br><br>
-		<?php findBoyoInArray()?>
+		<?php findBoyoInArray();?>
 		<br><br>
 		<div class="monthPosition">
-			<?php assRayMonths(true)?>
-		</div>5,
-		<?php assRayMonths()?>
+			<?php assRayMonths(true);?>
+		</div>
+		<?php assRayMonths();?>
 
-		<?php laererArray()?>
+		<?php laererArray();?>
 		<br><br>
 
 
@@ -54,7 +54,5 @@
 		<?php formsEverywhere()?>
 		<?php include "Include/Footer-include.php";?>
 	</div>
-
-
 </body>
 </html>
