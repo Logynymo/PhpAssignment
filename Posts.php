@@ -43,7 +43,7 @@
 
 		<p>
 			Pick a color:
-			<form action='' method='post' name='color'>
+			<form action='landing.php' method='post' name='color'>
 				<Select name='Colors'>
 					<option value='bgRed' name='Red' <?php 
 							if(isset($_POST['Colors']) &&
