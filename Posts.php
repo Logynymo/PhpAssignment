@@ -1,6 +1,6 @@
 <?php include "Include/stringFunctions.php";?>
 <?php include "Include/opgave4.php";?>
-<?php include "Include/form.php";?>
+<?php include "form.php";?>
 
 
 <!doctype html>
@@ -43,15 +43,32 @@
 
 		<p>
 			Pick a color:
-			<select name="formColor">
-				<option value=""> </option>
-				<option value="R">Rød</option>
-				<option value="G">Grøn</option>
-				<option value="B">Blå</option>
-				<option value="G">Grå</option>
-			</select>
+			<form action='' method='post' name='color'>
+				<Select name='Colors'>
+					<option value='bgRed' name='Red' <?php 
+							if(isset($_POST['Colors']) &&
+							  $_POST["Colors"] === "bgRed"){
+								echo "selected";
+							} ?>>Rød</option>
+					<option value='bgGreen' name='Green' <?php 
+							if(isset($_POST['Colors']) &&
+							  $_POST["Colors"] === "bgGreen"){
+								echo "selected";
+							} ?>>Grøn</option>
+					<option value='bgBlue' name='Blue' <?php 
+							if(isset($_POST['Colors']) &&
+							  $_POST["Colors"] === "bgBlue"){
+								echo "selected";
+							} ?>>Blå</option>
+					<option value='bgGray' name='Gray' <?php 
+							if(isset($_POST['Colors']) &&
+							  $_POST["Colors"] === "bgGray"){
+								echo "selected";
+							} ?>>Grå</option>
+				</select>
+				<input type='submit' name='submitButton'></input>
+			</form>
 		</p>
-		<?php formsEverywhere()?>
 		<?php include "Include/Footer-include.php";?>
 	</div>
 </body>
