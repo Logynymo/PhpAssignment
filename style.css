@@ -239,3 +239,18 @@ a:hover {
 	position: absolute;
 	margin-left: 220px;
 }
+.bgRed{
+	background-color: red;
+}
+.bgGreen{
+	background-color: green;
+
+}
+.bgBlue{
+	background-color: blue;
+
+}
+.bgGray{
+	background-color: gray;
+
+}

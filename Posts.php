@@ -66,7 +66,7 @@
 								echo "selected";
 							} ?>>Grå</option>
 				</select>
-				<input type='submit' name='submitButton'></input>
+				<input type='submit' name='submitButton' class="<?php echo $_POST["Colors"]?>"></input>
 			</form>
 		</p>
 		<?php include "Include/Footer-include.php";?>
