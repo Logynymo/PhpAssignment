@@ -69,7 +69,7 @@
 				<input type='submit' name='submitButton' class="<?php echo $_POST["Colors"]?>"></input>
 			</form>
 		</p>
-		<?php include "Include/Footer-include.php";?>
+		<!--<?php include "Include/Footer-include.php";?>!-->
 	</div>
 </body>
 </html>

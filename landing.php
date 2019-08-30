@@ -1,3 +1,4 @@
+
 <?php include "form.php"?>
 <!doctype html>
 <html>
@@ -6,6 +7,6 @@
 <title>Untitled Document</title>
 </head>
 <body>
-	
+	<h1>Velkommen på den <?php landingPageColors()?> side!</h1>
 </body>
 </html>
